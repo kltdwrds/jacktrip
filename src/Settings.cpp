@@ -698,7 +698,6 @@ void Settings::startJackTrip()
        cout << "Stoping JackTrip..." << endl;
        mJackTrip->stop();
     */
-    }
 }
 
 //*******************************************************************************
