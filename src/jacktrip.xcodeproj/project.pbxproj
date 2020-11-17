@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9D98411F2702FAF157947653 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "jacktrip" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1884794907D52C709DD8491C /* jacktrip_globals.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 523A8B80AB57B0ED893561E5 /* jacktrip_globals.cpp */; settings = {ATTRIBUTES = (); }; };
+		26638FDB605CD0FF2C554311 /* PacketHeader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 137D1524ACE359727F96DD16 /* PacketHeader.cpp */; settings = {ATTRIBUTES = (); }; };
+		27227A71254E837700262B4B /* jack in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C1CE7CCE556455D63F207E9C /* jack */; };
+		27227A83254E84BC00262B4B /* jack in Embed Libraries */ = {isa = PBXBuildFile; fileRef = C1CE7CCE556455D63F207E9C /* jack */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		27227A9C254E863300262B4B /* Jackmp.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 27227A64254E7DCE00262B4B /* Jackmp.framework */; };
+		27227A9E254E864700262B4B /* Jackmp.framework in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 27227A64254E7DCE00262B4B /* Jackmp.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D9431366CD76D64BA231042 /* JackTripWorker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4EB3B3DCD917195CFE64B775 /* JackTripWorker.cpp */; settings = {ATTRIBUTES = (); }; };
+		314AD054C1560C0BEA8E0E65 /* QtNetwork.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 18CFABF71C171FAE2A3040D5 /* QtNetwork.framework */; };
+		3505D7D933DCEA1FE233ED5D /* Reverb.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E490E06F65E77EA260A7BDD6 /* Reverb.cpp */; settings = {ATTRIBUTES = (); }; };
+		35A1A39F8EAB37889EB3D397 /* CoreAudio.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = BEF9DFDA6822604126A7E233 /* CoreAudio.framework */; };
+		3A2D9A95A9B1E5926F72E349 /* DataProtocol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9A93824E6E1E6D27951A1F85 /* DataProtocol.cpp */; settings = {ATTRIBUTES = (); }; };
+		45851C4DE121F863F764FC7B /* moc_JackTripWorker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 39A914A5BEF9EB435E017168 /* moc_JackTripWorker.cpp */; settings = {ATTRIBUTES = (); }; };
+		4FD8637DFE4F84D9760EB2D4 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D9174D5194EFD5598963C1B2 /* QtCore.framework */; };
+		52A6D69AF7505F805F69711A /* Settings.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 453B288508C82440E4C65475 /* Settings.cpp */; settings = {ATTRIBUTES = (); }; };
+		55AF425C399E11BCBD15FA94 /* ProcessPlugin.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 426684B3864FC3A1F96078C3 /* ProcessPlugin.cpp */; settings = {ATTRIBUTES = (); }; };
+		5729A001594953AD0E466E45 /* JackAudioInterface.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7AEC8C6D6DDCB0313F951812 /* JackAudioInterface.cpp */; settings = {ATTRIBUTES = (); }; };
+		58894D27E8F09343B6B81A9A /* moc_JackTrip.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 52E2A278EDD6F309AEEE832B /* moc_JackTrip.cpp */; settings = {ATTRIBUTES = (); }; };
+		5A80D29AB98AD4C0551113D0 /* moc_DataProtocol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0DD04A4D437FE435246CE637 /* moc_DataProtocol.cpp */; settings = {ATTRIBUTES = (); }; };
+		616C1B57F6ED281FF411CA09 /* Compressor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E3AE15A6138EDD008C05C94A /* Compressor.cpp */; settings = {ATTRIBUTES = (); }; };
+		6C74E308402EF5A4D48CDF41 /* RingBuffer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 22237A69F7AC58D0A025C676 /* RingBuffer.cpp */; settings = {ATTRIBUTES = (); }; };
+		75A5D56CBEE97D0E69C90FCD /* dummy.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3FAFB55263CAE0EC41CDB75E /* dummy.cpp */; settings = {ATTRIBUTES = (); }; };
+		7AA3791F5EE4CE92F93492A6 /* UdpHubListener.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 03363E955D3948D206D5A9C6 /* UdpHubListener.cpp */; settings = {ATTRIBUTES = (); }; };
+		7FCCBD0AF9CD80CE56DB848D /* UdpDataProtocol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1A518E3F64E19925AE05890F /* UdpDataProtocol.cpp */; settings = {ATTRIBUTES = (); }; };
+		88FBD8E83677E6BCC3653F9E /* jacktrip_main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = FCDB43FDACDD5406649B1072 /* jacktrip_main.cpp */; settings = {ATTRIBUTES = (); }; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		97BE1E076AA709B104B5EF14 /* moc_UdpDataProtocol.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 801ABD485655EEBBB9C954C2 /* moc_UdpDataProtocol.cpp */; settings = {ATTRIBUTES = (); }; };
+		99CE33EDF39BE072E0B13D34 /* JackTrip.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 773010668EB0FFF3B5AC31DE /* JackTrip.cpp */; settings = {ATTRIBUTES = (); }; };
+		A1AE9AAB27451F2E584D252F /* moc_NetKS.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = BB94AE5A3A6F8F00A7A934A9 /* moc_NetKS.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99749974A6FA52D805AE848 /* Limiter.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7A73197E580A750C8D4ED2F4 /* Limiter.cpp */; settings = {ATTRIBUTES = (); }; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		AC1CAFD086DD24F75C4A3E90 /* JMess.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5364BC41C01B54825582FF57 /* JMess.cpp */; settings = {ATTRIBUTES = (); }; };
+		AE35B83D20B8627F5E8B20B9 /* moc_PacketHeader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AB278E33B04EFE9881E65DE0 /* moc_PacketHeader.cpp */; settings = {ATTRIBUTES = (); }; };
+		BAA1C985945CFC17CDF8FDAB /* moc_Settings.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E434E2A0931D3B0A1443EBA6 /* moc_Settings.cpp */; settings = {ATTRIBUTES = (); }; };
+		BF49DCA0B69CAB33C7589A84 /* LoopBack.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 521893FE5063BA24B6B30CAB /* LoopBack.cpp */; settings = {ATTRIBUTES = (); }; };
+		C98679D04AF143A9B4B20900 /* moc_JackTripWorkerMessages.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E2E4E32D9459F67CF98D52D2 /* moc_JackTripWorkerMessages.cpp */; settings = {ATTRIBUTES = (); }; };
+		D7AB5EAA7FE4B06C25CB77C5 /* moc_ThreadPoolTest.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 347253CA74D2B82B1A1E8160 /* moc_ThreadPoolTest.cpp */; settings = {ATTRIBUTES = (); }; };
+		E559E46F7217CD90ED28EA2F /* AudioTester.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B93A33BB24E3FCA70883606F /* AudioTester.cpp */; settings = {ATTRIBUTES = (); }; };
+		E7654081991E8A279C263BB5 /* JitterBuffer.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F508438E86A2DFA13CC6767A /* JitterBuffer.cpp */; settings = {ATTRIBUTES = (); }; };
+		F7B3CFCE5AE9AEFBB56588DD /* AudioInterface.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = ECE2DB2721AF57ED00C2CC8F /* AudioInterface.cpp */; settings = {ATTRIBUTES = (); }; };
+		F807773518C4FAB5A0947E92 /* jacktrip_tests.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 692DA3182307314D430D297E /* jacktrip_tests.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8971908853FFF84DAFDC216 /* JackTripThread.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 79C60884A565CBA0996F6C0A /* JackTripThread.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */; };
+		FC31F3FF434C69C60B8DDA69 /* moc_UdpHubListener.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 11FDFE21EEDD1C1383F1BF22 /* moc_UdpHubListener.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27227A5C254E746400262B4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D98411F2702FAF157947653;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27227A5E254E74AC00262B4B /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27227A83254E84BC00262B4B /* jack in Embed Libraries */,
+				27227A9E254E864700262B4B /* Jackmp.framework in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		03363E955D3948D206D5A9C6 /* UdpHubListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UdpHubListener.cpp; path = /Users/kyle/code/jacktrip/src/UdpHubListener.cpp; sourceTree = "<absolute>"; };
+		08F8CEA74601D10A05B13BB9 /* AudioInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioInterface.h; path = /Users/kyle/code/jacktrip/src/AudioInterface.h; sourceTree = "<absolute>"; };
+		09EFD0FC0BC71411CF3AA0D4 /* DataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataProtocol.h; path = /Users/kyle/code/jacktrip/src/DataProtocol.h; sourceTree = "<absolute>"; };
+		0DD04A4D437FE435246CE637 /* moc_DataProtocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_DataProtocol.cpp; path = /Users/kyle/code/jacktrip/src/moc_DataProtocol.cpp; sourceTree = "<absolute>"; };
+		0E96C83BBA2845DB8056296A /* Effects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Effects.h; path = /Users/kyle/code/jacktrip/src/Effects.h; sourceTree = "<absolute>"; };
+		11FDFE21EEDD1C1383F1BF22 /* moc_UdpHubListener.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_UdpHubListener.cpp; path = /Users/kyle/code/jacktrip/src/moc_UdpHubListener.cpp; sourceTree = "<absolute>"; };
+		130359A85E26142964A4EC4F /* LoopBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LoopBack.h; path = /Users/kyle/code/jacktrip/src/LoopBack.h; sourceTree = "<absolute>"; };
+		137D1524ACE359727F96DD16 /* PacketHeader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PacketHeader.cpp; path = /Users/kyle/code/jacktrip/src/PacketHeader.cpp; sourceTree = "<absolute>"; };
+		1612CC0A70F03C1017EDA9EF /* AudioTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AudioTester.h; path = /Users/kyle/code/jacktrip/src/AudioTester.h; sourceTree = "<absolute>"; };
+		18CFABF71C171FAE2A3040D5 /* QtNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtNetwork.framework; path = /usr/local/Cellar/qt/5.15.1/lib/QtNetwork.framework; sourceTree = "<absolute>"; };
+		1971DB0F54A842A451F075D7 /* JackTripThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JackTripThread.h; path = /Users/kyle/code/jacktrip/src/JackTripThread.h; sourceTree = "<absolute>"; };
+		1A518E3F64E19925AE05890F /* UdpDataProtocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = UdpDataProtocol.cpp; path = /Users/kyle/code/jacktrip/src/UdpDataProtocol.cpp; sourceTree = "<absolute>"; };
+		21215040AC0D969BF3048CE3 /* UdpDataProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UdpDataProtocol.h; path = /Users/kyle/code/jacktrip/src/UdpDataProtocol.h; sourceTree = "<absolute>"; };
+		22237A69F7AC58D0A025C676 /* RingBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = RingBuffer.cpp; path = /Users/kyle/code/jacktrip/src/RingBuffer.cpp; sourceTree = "<absolute>"; };
+		27227A5F254E757400262B4B /* jacktrip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = jacktrip.entitlements; sourceTree = "<group>"; };
+		27227A61254E7D6C00262B4B /* Jackmp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Jackmp; path = ../../../../../Library/Frameworks/Jackmp; sourceTree = "<group>"; };
+		27227A63254E7DCE00262B4B /* Jackservermp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Jackservermp.framework; path = ../../../../../Library/Frameworks/Jackservermp.framework; sourceTree = "<group>"; };
+		27227A64254E7DCE00262B4B /* Jackmp.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Jackmp.framework; path = ../../../../../Library/Frameworks/Jackmp.framework; sourceTree = "<group>"; };
+		27227A98254E862100262B4B /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Resources; path = ../../../../../Library/Frameworks/Jackmp.framework/Resources; sourceTree = "<group>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		3024E62E29F27A9044F8B090 /* jacktrip.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = jacktrip.pro; path = /Users/kyle/code/jacktrip/src/jacktrip.pro; sourceTree = "<absolute>"; };
+		347253CA74D2B82B1A1E8160 /* moc_ThreadPoolTest.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_ThreadPoolTest.cpp; path = /Users/kyle/code/jacktrip/src/moc_ThreadPoolTest.cpp; sourceTree = "<absolute>"; };
+		39A914A5BEF9EB435E017168 /* moc_JackTripWorker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_JackTripWorker.cpp; path = /Users/kyle/code/jacktrip/src/moc_JackTripWorker.cpp; sourceTree = "<absolute>"; };
+		3CC1E7562F9D9412CB5D0BDA /* Reverb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Reverb.h; path = /Users/kyle/code/jacktrip/src/Reverb.h; sourceTree = "<absolute>"; };
+		3FAFB55263CAE0EC41CDB75E /* dummy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dummy.cpp; path = /usr/local/Cellar/qt/5.15.1/mkspecs/features/data/dummy.cpp; sourceTree = "<absolute>"; };
+		41A4E8799E28BC544AD39CF1 /* RingBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RingBuffer.h; path = /Users/kyle/code/jacktrip/src/RingBuffer.h; sourceTree = "<absolute>"; };
+		426684B3864FC3A1F96078C3 /* ProcessPlugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ProcessPlugin.cpp; path = /Users/kyle/code/jacktrip/src/ProcessPlugin.cpp; sourceTree = "<absolute>"; };
+		453B288508C82440E4C65475 /* Settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Settings.cpp; path = /Users/kyle/code/jacktrip/src/Settings.cpp; sourceTree = "<absolute>"; };
+		4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		4EB3B3DCD917195CFE64B775 /* JackTripWorker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JackTripWorker.cpp; path = /Users/kyle/code/jacktrip/src/JackTripWorker.cpp; sourceTree = "<absolute>"; };
+		5148CA8D05402150DC4C2475 /* UdpHubListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UdpHubListener.h; path = /Users/kyle/code/jacktrip/src/UdpHubListener.h; sourceTree = "<absolute>"; };
+		521893FE5063BA24B6B30CAB /* LoopBack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LoopBack.cpp; path = /Users/kyle/code/jacktrip/src/LoopBack.cpp; sourceTree = "<absolute>"; };
+		522A8408F1F9A5B3DBE39EF2 /* JackTripWorkerMessages.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JackTripWorkerMessages.h; path = /Users/kyle/code/jacktrip/src/JackTripWorkerMessages.h; sourceTree = "<absolute>"; };
+		523A8B80AB57B0ED893561E5 /* jacktrip_globals.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jacktrip_globals.cpp; path = /Users/kyle/code/jacktrip/src/jacktrip_globals.cpp; sourceTree = "<absolute>"; };
+		52E2A278EDD6F309AEEE832B /* moc_JackTrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_JackTrip.cpp; path = /Users/kyle/code/jacktrip/src/moc_JackTrip.cpp; sourceTree = "<absolute>"; };
+		5364BC41C01B54825582FF57 /* JMess.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JMess.cpp; path = /Users/kyle/code/jacktrip/src/JMess.cpp; sourceTree = "<absolute>"; };
+		5A6C9FBB679DC2EDCCBD5969 /* PacketHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PacketHeader.h; path = /Users/kyle/code/jacktrip/src/PacketHeader.h; sourceTree = "<absolute>"; };
+		5C1400B140D5A6D5DF188573 /* limiterdsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = limiterdsp.h; path = /Users/kyle/code/jacktrip/src/limiterdsp.h; sourceTree = "<absolute>"; };
+		685AE9D1304E4EF74AC19304 /* RingBufferWavetable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RingBufferWavetable.h; path = /Users/kyle/code/jacktrip/src/RingBufferWavetable.h; sourceTree = "<absolute>"; };
+		692DA3182307314D430D297E /* jacktrip_tests.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jacktrip_tests.cpp; path = /Users/kyle/code/jacktrip/src/jacktrip_tests.cpp; sourceTree = "<absolute>"; };
+		6CC582BC83674DD600F26448 /* jacktrip */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = jacktrip; path = /Users/kyle/code/jacktrip/src/Debug/jacktrip; sourceTree = "<absolute>"; };
+		773010668EB0FFF3B5AC31DE /* JackTrip.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JackTrip.cpp; path = /Users/kyle/code/jacktrip/src/JackTrip.cpp; sourceTree = "<absolute>"; };
+		79C60884A565CBA0996F6C0A /* JackTripThread.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JackTripThread.cpp; path = /Users/kyle/code/jacktrip/src/JackTripThread.cpp; sourceTree = "<absolute>"; };
+		7A73197E580A750C8D4ED2F4 /* Limiter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Limiter.cpp; path = /Users/kyle/code/jacktrip/src/Limiter.cpp; sourceTree = "<absolute>"; };
+		7AEC8C6D6DDCB0313F951812 /* JackAudioInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JackAudioInterface.cpp; path = /Users/kyle/code/jacktrip/src/JackAudioInterface.cpp; sourceTree = "<absolute>"; };
+		7B1F873C6C32958C0264EBD7 /* JackTripWorker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JackTripWorker.h; path = /Users/kyle/code/jacktrip/src/JackTripWorker.h; sourceTree = "<absolute>"; };
+		7FA49BBB9C11F50B29C28042 /* jacktrip_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jacktrip_types.h; path = /Users/kyle/code/jacktrip/src/jacktrip_types.h; sourceTree = "<absolute>"; };
+		801ABD485655EEBBB9C954C2 /* moc_UdpDataProtocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_UdpDataProtocol.cpp; path = /Users/kyle/code/jacktrip/src/moc_UdpDataProtocol.cpp; sourceTree = "<absolute>"; };
+		881AEC63C1BBB4CB71C6925F /* NetKS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NetKS.h; path = /Users/kyle/code/jacktrip/src/NetKS.h; sourceTree = "<absolute>"; };
+		9A93824E6E1E6D27951A1F85 /* DataProtocol.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataProtocol.cpp; path = /Users/kyle/code/jacktrip/src/DataProtocol.cpp; sourceTree = "<absolute>"; };
+		9E15F95666F43E0B7F3A8297 /* JackTrip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JackTrip.h; path = /Users/kyle/code/jacktrip/src/JackTrip.h; sourceTree = "<absolute>"; };
+		9E8AE0976F4B39FAC0EB987B /* TestRingBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TestRingBuffer.h; path = /Users/kyle/code/jacktrip/src/TestRingBuffer.h; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A439850E919A6365E261725D /* ProcessPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProcessPlugin.h; path = /Users/kyle/code/jacktrip/src/ProcessPlugin.h; sourceTree = "<absolute>"; };
+		AB278E33B04EFE9881E65DE0 /* moc_PacketHeader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_PacketHeader.cpp; path = /Users/kyle/code/jacktrip/src/moc_PacketHeader.cpp; sourceTree = "<absolute>"; };
+		B79D200783F147DAF3BBC128 /* CompressorPresets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CompressorPresets.h; path = /Users/kyle/code/jacktrip/src/CompressorPresets.h; sourceTree = "<absolute>"; };
+		B93A33BB24E3FCA70883606F /* AudioTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AudioTester.cpp; path = /Users/kyle/code/jacktrip/src/AudioTester.cpp; sourceTree = "<absolute>"; };
+		BB94AE5A3A6F8F00A7A934A9 /* moc_NetKS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_NetKS.cpp; path = /Users/kyle/code/jacktrip/src/moc_NetKS.cpp; sourceTree = "<absolute>"; };
+		BEA903D903FE9A0F29E031C3 /* JackAudioInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JackAudioInterface.h; path = /Users/kyle/code/jacktrip/src/JackAudioInterface.h; sourceTree = "<absolute>"; };
+		BEF9DFDA6822604126A7E233 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = /System/Library/Frameworks/CoreAudio.framework; sourceTree = "<absolute>"; };
+		C1CE7CCE556455D63F207E9C /* jack */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = jack; path = /usr/local/lib/libjack.dylib; sourceTree = "<absolute>"; };
+		C2386E2E18E056C146A46850 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/kyle/code/jacktrip/src/.qmake.stash; sourceTree = "<absolute>"; };
+		CC48EDB41C768402E4C51CC2 /* ThreadPoolTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ThreadPoolTest.h; path = /Users/kyle/code/jacktrip/src/ThreadPoolTest.h; sourceTree = "<absolute>"; };
+		CDCB22FFFBDBC66730473730 /* jacktrip_globals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = jacktrip_globals.h; path = /Users/kyle/code/jacktrip/src/jacktrip_globals.h; sourceTree = "<absolute>"; };
+		D7602C6C236AADA569D6F5EA /* compressordsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = compressordsp.h; path = /Users/kyle/code/jacktrip/src/compressordsp.h; sourceTree = "<absolute>"; };
+		D9174D5194EFD5598963C1B2 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /usr/local/Cellar/qt/5.15.1/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		DB260C1B3E1CA5745CA84AAB /* freeverbdsp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = freeverbdsp.h; path = /Users/kyle/code/jacktrip/src/freeverbdsp.h; sourceTree = "<absolute>"; };
+		E2E4E32D9459F67CF98D52D2 /* moc_JackTripWorkerMessages.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_JackTripWorkerMessages.cpp; path = /Users/kyle/code/jacktrip/src/moc_JackTripWorkerMessages.cpp; sourceTree = "<absolute>"; };
+		E3AE15A6138EDD008C05C94A /* Compressor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Compressor.cpp; path = /Users/kyle/code/jacktrip/src/Compressor.cpp; sourceTree = "<absolute>"; };
+		E434E2A0931D3B0A1443EBA6 /* moc_Settings.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Settings.cpp; path = /Users/kyle/code/jacktrip/src/moc_Settings.cpp; sourceTree = "<absolute>"; };
+		E490E06F65E77EA260A7BDD6 /* Reverb.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Reverb.cpp; path = /Users/kyle/code/jacktrip/src/Reverb.cpp; sourceTree = "<absolute>"; };
+		ECE2DB2721AF57ED00C2CC8F /* AudioInterface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = AudioInterface.cpp; path = /Users/kyle/code/jacktrip/src/AudioInterface.cpp; sourceTree = "<absolute>"; };
+		F48DD663D06AD7BB585E6077 /* Limiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Limiter.h; path = /Users/kyle/code/jacktrip/src/Limiter.h; sourceTree = "<absolute>"; };
+		F503E6FFF801A1BCB7A8F6E0 /* Compressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Compressor.h; path = /Users/kyle/code/jacktrip/src/Compressor.h; sourceTree = "<absolute>"; };
+		F508438E86A2DFA13CC6767A /* JitterBuffer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = JitterBuffer.cpp; path = /Users/kyle/code/jacktrip/src/JitterBuffer.cpp; sourceTree = "<absolute>"; };
+		F99700E8E0448028971F0888 /* Settings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Settings.h; path = /Users/kyle/code/jacktrip/src/Settings.h; sourceTree = "<absolute>"; };
+		FCDB43FDACDD5406649B1072 /* jacktrip_main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = jacktrip_main.cpp; path = /Users/kyle/code/jacktrip/src/jacktrip_main.cpp; sourceTree = "<absolute>"; };
+		FD5D245F097E76DB180E6B96 /* JMess.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JMess.h; path = /Users/kyle/code/jacktrip/src/JMess.h; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27227A9C254E863300262B4B /* Jackmp.framework in Link Binary With Libraries */,
+				27227A71254E837700262B4B /* jack in Link Binary With Libraries */,
+				35A1A39F8EAB37889EB3D397 /* CoreAudio.framework in Link Binary With Libraries */,
+				F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */,
+				314AD054C1560C0BEA8E0E65 /* QtNetwork.framework in Link Binary With Libraries */,
+				4FD8637DFE4F84D9760EB2D4 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0DD04A4D437FE435246CE637 /* moc_DataProtocol.cpp */,
+				52E2A278EDD6F309AEEE832B /* moc_JackTrip.cpp */,
+				39A914A5BEF9EB435E017168 /* moc_JackTripWorker.cpp */,
+				E2E4E32D9459F67CF98D52D2 /* moc_JackTripWorkerMessages.cpp */,
+				BB94AE5A3A6F8F00A7A934A9 /* moc_NetKS.cpp */,
+				AB278E33B04EFE9881E65DE0 /* moc_PacketHeader.cpp */,
+				E434E2A0931D3B0A1443EBA6 /* moc_Settings.cpp */,
+				347253CA74D2B82B1A1E8160 /* moc_ThreadPoolTest.cpp */,
+				801ABD485655EEBBB9C954C2 /* moc_UdpDataProtocol.cpp */,
+				11FDFE21EEDD1C1383F1BF22 /* moc_UdpHubListener.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				9A93824E6E1E6D27951A1F85 /* DataProtocol.cpp */,
+				5364BC41C01B54825582FF57 /* JMess.cpp */,
+				773010668EB0FFF3B5AC31DE /* JackTrip.cpp */,
+				E3AE15A6138EDD008C05C94A /* Compressor.cpp */,
+				7A73197E580A750C8D4ED2F4 /* Limiter.cpp */,
+				E490E06F65E77EA260A7BDD6 /* Reverb.cpp */,
+				B93A33BB24E3FCA70883606F /* AudioTester.cpp */,
+				523A8B80AB57B0ED893561E5 /* jacktrip_globals.cpp */,
+				FCDB43FDACDD5406649B1072 /* jacktrip_main.cpp */,
+				692DA3182307314D430D297E /* jacktrip_tests.cpp */,
+				79C60884A565CBA0996F6C0A /* JackTripThread.cpp */,
+				4EB3B3DCD917195CFE64B775 /* JackTripWorker.cpp */,
+				F508438E86A2DFA13CC6767A /* JitterBuffer.cpp */,
+				521893FE5063BA24B6B30CAB /* LoopBack.cpp */,
+				137D1524ACE359727F96DD16 /* PacketHeader.cpp */,
+				426684B3864FC3A1F96078C3 /* ProcessPlugin.cpp */,
+				22237A69F7AC58D0A025C676 /* RingBuffer.cpp */,
+				453B288508C82440E4C65475 /* Settings.cpp */,
+				1A518E3F64E19925AE05890F /* UdpDataProtocol.cpp */,
+				03363E955D3948D206D5A9C6 /* UdpHubListener.cpp */,
+				ECE2DB2721AF57ED00C2CC8F /* AudioInterface.cpp */,
+				7AEC8C6D6DDCB0313F951812 /* JackAudioInterface.cpp */,
+				09EFD0FC0BC71411CF3AA0D4 /* DataProtocol.h */,
+				FD5D245F097E76DB180E6B96 /* JMess.h */,
+				9E15F95666F43E0B7F3A8297 /* JackTrip.h */,
+				0E96C83BBA2845DB8056296A /* Effects.h */,
+				F503E6FFF801A1BCB7A8F6E0 /* Compressor.h */,
+				B79D200783F147DAF3BBC128 /* CompressorPresets.h */,
+				F48DD663D06AD7BB585E6077 /* Limiter.h */,
+				3CC1E7562F9D9412CB5D0BDA /* Reverb.h */,
+				1612CC0A70F03C1017EDA9EF /* AudioTester.h */,
+				CDCB22FFFBDBC66730473730 /* jacktrip_globals.h */,
+				7FA49BBB9C11F50B29C28042 /* jacktrip_types.h */,
+				1971DB0F54A842A451F075D7 /* JackTripThread.h */,
+				7B1F873C6C32958C0264EBD7 /* JackTripWorker.h */,
+				522A8408F1F9A5B3DBE39EF2 /* JackTripWorkerMessages.h */,
+				130359A85E26142964A4EC4F /* LoopBack.h */,
+				881AEC63C1BBB4CB71C6925F /* NetKS.h */,
+				5A6C9FBB679DC2EDCCBD5969 /* PacketHeader.h */,
+				A439850E919A6365E261725D /* ProcessPlugin.h */,
+				41A4E8799E28BC544AD39CF1 /* RingBuffer.h */,
+				685AE9D1304E4EF74AC19304 /* RingBufferWavetable.h */,
+				F99700E8E0448028971F0888 /* Settings.h */,
+				9E8AE0976F4B39FAC0EB987B /* TestRingBuffer.h */,
+				CC48EDB41C768402E4C51CC2 /* ThreadPoolTest.h */,
+				21215040AC0D969BF3048CE3 /* UdpDataProtocol.h */,
+				5148CA8D05402150DC4C2475 /* UdpHubListener.h */,
+				08F8CEA74601D10A05B13BB9 /* AudioInterface.h */,
+				D7602C6C236AADA569D6F5EA /* compressordsp.h */,
+				5C1400B140D5A6D5DF188573 /* limiterdsp.h */,
+				DB260C1B3E1CA5745CA84AAB /* freeverbdsp.h */,
+				BEA903D903FE9A0F29E031C3 /* JackAudioInterface.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3024E62E29F27A9044F8B090 /* jacktrip.pro */,
+				C2386E2E18E056C146A46850 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27227A98254E862100262B4B /* Resources */,
+				27227A64254E7DCE00262B4B /* Jackmp.framework */,
+				27227A63254E7DCE00262B4B /* Jackservermp.framework */,
+				27227A61254E7D6C00262B4B /* Jackmp */,
+				C1CE7CCE556455D63F207E9C /* jack */,
+				BEF9DFDA6822604126A7E233 /* CoreAudio.framework */,
+				4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */,
+				18CFABF71C171FAE2A3040D5 /* QtNetwork.framework */,
+				D9174D5194EFD5598963C1B2 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */ = {
+			isa = PBXGroup;
+			children = (
+				3FAFB55263CAE0EC41CDB75E /* dummy.cpp */,
+			);
+			name = "Sources [moc_predefs]";
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* jacktrip */ = {
+			isa = PBXGroup;
+			children = (
+				27227A5F254E757400262B4B /* jacktrip.entitlements */,
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				B8254625CFD509ED2A24A166 /* Sources [moc_predefs] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+			);
+			name = jacktrip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C715F790425A2D7118F8D8CF /* jacktrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "jacktrip" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				27227A5E254E74AC00262B4B /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07FE063F94AA8A04CDB1480 /* PBXTargetDependency */,
+			);
+			name = jacktrip;
+			productName = jacktrip;
+			productReference = 6CC582BC83674DD600F26448 /* jacktrip */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "jacktrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* jacktrip */;
+			productRefGroup = E8C543AB96796ECAA2E65C57 /* jacktrip */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C715F790425A2D7118F8D8CF /* jacktrip */,
+				9D98411F2702FAF157947653 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kyle/code/jacktrip/src -f jacktrip.xcodeproj/qt_makeqmake.mak\n";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kyle/code/jacktrip/src -f jacktrip.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2D9A95A9B1E5926F72E349 /* DataProtocol.cpp in Compile Sources */,
+				AC1CAFD086DD24F75C4A3E90 /* JMess.cpp in Compile Sources */,
+				99CE33EDF39BE072E0B13D34 /* JackTrip.cpp in Compile Sources */,
+				616C1B57F6ED281FF411CA09 /* Compressor.cpp in Compile Sources */,
+				A99749974A6FA52D805AE848 /* Limiter.cpp in Compile Sources */,
+				3505D7D933DCEA1FE233ED5D /* Reverb.cpp in Compile Sources */,
+				E559E46F7217CD90ED28EA2F /* AudioTester.cpp in Compile Sources */,
+				1884794907D52C709DD8491C /* jacktrip_globals.cpp in Compile Sources */,
+				88FBD8E83677E6BCC3653F9E /* jacktrip_main.cpp in Compile Sources */,
+				F807773518C4FAB5A0947E92 /* jacktrip_tests.cpp in Compile Sources */,
+				F8971908853FFF84DAFDC216 /* JackTripThread.cpp in Compile Sources */,
+				2D9431366CD76D64BA231042 /* JackTripWorker.cpp in Compile Sources */,
+				E7654081991E8A279C263BB5 /* JitterBuffer.cpp in Compile Sources */,
+				BF49DCA0B69CAB33C7589A84 /* LoopBack.cpp in Compile Sources */,
+				26638FDB605CD0FF2C554311 /* PacketHeader.cpp in Compile Sources */,
+				55AF425C399E11BCBD15FA94 /* ProcessPlugin.cpp in Compile Sources */,
+				6C74E308402EF5A4D48CDF41 /* RingBuffer.cpp in Compile Sources */,
+				52A6D69AF7505F805F69711A /* Settings.cpp in Compile Sources */,
+				7FCCBD0AF9CD80CE56DB848D /* UdpDataProtocol.cpp in Compile Sources */,
+				7AA3791F5EE4CE92F93492A6 /* UdpHubListener.cpp in Compile Sources */,
+				F7B3CFCE5AE9AEFBB56588DD /* AudioInterface.cpp in Compile Sources */,
+				5729A001594953AD0E466E45 /* JackAudioInterface.cpp in Compile Sources */,
+				5A80D29AB98AD4C0551113D0 /* moc_DataProtocol.cpp in Compile Sources */,
+				58894D27E8F09343B6B81A9A /* moc_JackTrip.cpp in Compile Sources */,
+				45851C4DE121F863F764FC7B /* moc_JackTripWorker.cpp in Compile Sources */,
+				C98679D04AF143A9B4B20900 /* moc_JackTripWorkerMessages.cpp in Compile Sources */,
+				A1AE9AAB27451F2E584D252F /* moc_NetKS.cpp in Compile Sources */,
+				AE35B83D20B8627F5E8B20B9 /* moc_PacketHeader.cpp in Compile Sources */,
+				BAA1C985945CFC17CDF8FDAB /* moc_Settings.cpp in Compile Sources */,
+				D7AB5EAA7FE4B06C25CB77C5 /* moc_ThreadPoolTest.cpp in Compile Sources */,
+				97BE1E076AA709B104B5EF14 /* moc_UdpDataProtocol.cpp in Compile Sources */,
+				FC31F3FF434C69C60B8DDA69 /* moc_UdpHubListener.cpp in Compile Sources */,
+				75A5D56CBEE97D0E69C90FCD /* dummy.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D07FE063F94AA8A04CDB1480 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D98411F2702FAF157947653 /* Qt Preprocess */;
+			targetProxy = 27227A5C254E746400262B4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Kyle Edwards (936XM94Q59)";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936XM94Q59;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/5.15.1/lib,
+					/usr/local/Cellar/qt/5.15.1/lib,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../faust-src-lair/stk",
+					/usr/local/include,
+					"../faust-src-lair",
+					"../externals/rtaudio-4.1.1/",
+					/usr/local/Cellar/qt/5.15.1/lib/QtNetwork.framework/Headers,
+					/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers,
+					.,
+					"/usr/local/Cellar/qt/5.15.1/mkspecs/macx-clang",
+				);
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/System/Library/Frameworks/,
+					/usr/local/Cellar/qt/5.15.1/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DWAIRTOHUB",
+					"-D__MAC_OSX__",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-D__MACOSX_CORE__",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DWAIRTOHUB",
+					"-D__MAC_OSX__",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-F/usr/local/Cellar/qt/5.15.1/lib",
+					"-L/usr/local/lib",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = jacktrip;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = x86_64;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Kyle Edwards (936XM94Q59)";
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936XM94Q59;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/usr/local/Cellar/qt/5.15.1/lib,
+					/usr/local/Cellar/qt/5.15.1/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					"../faust-src-lair/stk",
+					/usr/local/include,
+					"../faust-src-lair",
+					"../externals/rtaudio-4.1.1/",
+					/usr/local/Cellar/qt/5.15.1/lib/QtNetwork.framework/Headers,
+					/usr/local/Cellar/qt/5.15.1/lib/QtCore.framework/Headers,
+					.,
+					"/usr/local/Cellar/qt/5.15.1/mkspecs/macx-clang",
+				);
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib,
+					/System/Library/Frameworks/,
+					/usr/local/Cellar/qt/5.15.1/lib,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DWAIRTOHUB",
+					"-D__MAC_OSX__",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-D__MACOSX_CORE__",
+					"-O2",
+					"-std=gnu++11",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DWAIRTOHUB",
+					"-D__MAC_OSX__",
+					"-DQT_NO_DEBUG",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-F/usr/local/Cellar/qt/5.15.1/lib",
+					"-L/usr/local/lib",
+					"-lm",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = jacktrip;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CODE_SIGN_ENTITLEMENTS = jacktrip.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936XM94Q59;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebelheaded.jacktrip;
+				PRODUCT_NAME = jacktrip;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = x86_64;
+				CODE_SIGN_ENTITLEMENTS = jacktrip.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 936XM94Q59;
+				ENABLE_BITCODE = NO;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rebelheaded.jacktrip;
+				PRODUCT_NAME = jacktrip;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "jacktrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "jacktrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
